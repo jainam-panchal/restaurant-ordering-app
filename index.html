@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Sheldon's Diner</h1>
+        <h3>The Best Burger and Pizzas in Town</h3>
+    </header>
+
+
+    <div class="totalSize">
+
+        <div class="menu" id="menu">
+            <!--`<div class="ele-wrapper">
+                <section class="ele-image">
+                    <h1>${emoji}</h1>
+                </section>
+                <section class="ele-text">
+                    <h1 class="ele-title">${name}</h1>
+                    <h4 class="ele-toppings">${ingredients}</h4>
+                </section>
+                <section class="add-cart-section">
+                    <h4>Add to Cart</h4>
+                    <div class="circle">
+                        <h2 class="ele-price">${"$" + price}</h2>
+                </section>
+            </div>
+            </div>`-->
+        </div>
+        <div class="line"></div>
+
+        <!--<h1 class="cart-tag"">Cart</h1>-->
+
+        <div class=" cart-list"">
+
+            <table class=" cart-table" id="cart-table">
+
+            <tr style="font-size: 3rem;">
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+
+            <!--<tr class="cart-item" id="cart-item">
+                <td>
+                    <h3 class="cart-item-name">Beer</h3>
+                </td>
+                <td>
+                    <input type="number" class="cart-item-qty" id="qty" value="1">
+                </td>
+                <td>
+                    <h3 class="cart-item-price">$10</h3>
+                    <button class="cart-item-remove">Remove</button>
+                </td>
+            </tr>-->
+
+
+            </table>
+
+
+            <h1
+                style="margin-top: 4rem; margin-bottom: 4rem; text-align: center; color:rgb(109, 220, 107); font-size: 3rem; cursor: pointer; ">
+                Pay Now :
+                <span class="total-amount" id="total-amount">$0</span>
+            </h1>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src=" index.js" type="module">
+    </script>
+
+</body>
+
+</html>

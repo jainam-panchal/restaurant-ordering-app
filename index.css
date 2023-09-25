@@ -1,0 +1,170 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    background-color: #0b0b06;
+    /*text-align: center;*/
+}
+
+.totalSize {
+    /*height: 100vh;*/
+    padding: 20px 40px;
+    background-color: #0b0b06;
+    /*margin: 0 auto;*/
+    color: wheat;
+}
+
+header {
+    font-size: 90px;
+    background-image: url('media/shardar-tarikul-islam-z9yZjfRGLZQ-unsplash.jpg');
+    background-size: cover;
+    height: 400px;
+    padding: 60px 0px 0px 60px;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.8),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+header h1 {
+    font-size: 6rem;
+    margin: 0px;
+    margin-bottom: -20px;
+}
+
+header h3 {
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    /*align-items:;*/
+
+}
+
+.ele-wrapper {
+    display: flex;
+    gap: 20px;
+    flex- border-bottom: solid 1px #D2D2D2;
+    justify-content: end;
+    align-items: center;
+}
+
+.ele-image h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.4px;
+    /* 125% */
+    letter-spacing: -1.574px;
+}
+
+.ele-text {
+    font-size: 1.5rem;
+}
+
+
+.ele-price {
+    font-size: 1.5rem;
+}
+
+.add-cart-section {
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: auto;
+}
+
+.circle {
+    padding: 5px;
+    /*margin-right: 0px;*/
+    width: 50px;
+    height: 50px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    stroke: #DEDEDE;
+
+}
+
+.circle p {
+    width: 27px;
+    height: 28.5px;
+    flex-shrink: 0;
+    color: #3C3C3C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.ele-text {
+    line-height: 16.8px;
+    /*font-size: 28px;*/
+}
+
+.add-cart-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 93vw;
+    border: 1px solid wheat;
+    margin-bottom: 40px;
+}
+
+.cart-tag {
+    font-size: 3rem;
+}
+
+.cart-table {
+    margin: 0 auto;
+    width: 600px;
+    color: wheat;
+    text-align: center;
+    /*width: 100%;*/
+    font-size: 1.5rem;
+}
+
+.cart-item {
+    padding: 0px;
+    font-size: 2rem;
+}
+
+.cart-item-name {
+    margin: 0px;
+}
+
+.cart-item-price {
+    display: inline;
+}
+
+.cart-item-qty {
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(228, 207, 169);
+    border: none
+}
+
+.cart-item-remove {
+    /*padding: 0.5rem;*/
+    margin: 1rem;
+    background-color: rgb(228, 207, 169);
+}
